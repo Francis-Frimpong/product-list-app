@@ -14,8 +14,68 @@ body {
   font-size: 2rem;
 }
 
+.product-card {
+  position: relative;
+}
+
 .product-card img {
-  width: 30%;
-  height: 35%;
+  width: 50%;
+  height: 55%;
   border-radius: 5px;
+}
+
+.product-card .category {
+  color: hsl(14, 25%, 72%);
+  font-weight: 500;
+}
+.product-card .name {
+  color: hsl(14, 65%, 9%);
+}
+.product-card .price {
+  color: hsl(14, 86%, 42%);
+}
+
+.product-details {
+  margin-top: 2em;
+}
+
+.category {
+  margin-bottom: 0.5em;
+}
+.name {
+  margin-bottom: 0.5em;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(3, auto); /* 3 rows */
+  gap: 24px; /* space between cards */
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 20px;
+  background-color: hsl(20, 50%, 98%);
+  color: hsl(14, 65%, 9%);
+  font-size: 10px;
+  font-weight: 600;
+  border: 1px solid hsl(14, 65%, 9%);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.action-btn {
+  position: absolute;
+  top: 60%;
+  left: 12.5%;
+}
+.add-to-cart img {
+  width: 20px;
+  height: 20px;
 }
