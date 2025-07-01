@@ -14,6 +14,7 @@ body {
 .title {
   font-size: 2rem;
   margin-left: 20px;
+  color: hsl(14, 65%, 9%);
 }
 
 .product-card {
@@ -71,6 +72,30 @@ body {
   border: 1px solid hsl(14, 65%, 9%);
   border-radius: 30px;
   cursor: pointer;
+}
+.quantity-btn {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 20px;
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  font-size: 10px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: none;
+}
+
+.dash,
+.plus {
+  border: 1px solid hsl(20, 50%, 98%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 .action-btn {
   position: absolute;
