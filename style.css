@@ -127,3 +127,27 @@ body {
   color: hsl(14, 86%, 42%);
   font-size: 1.5rem;
 }
+
+.item {
+  display: flex;
+  position: relative;
+  margin: 0.9em 0;
+}
+
+.qty-price {
+  display: flex;
+}
+
+.remove {
+  position: absolute;
+  left: 16em;
+  top: 1em;
+  border: 1px solid hsl(14, 25%, 72%);
+  padding: 2px;
+  border-radius: 50%;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid hsl(13, 31%, 94%);
+}
