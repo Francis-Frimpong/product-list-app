@@ -114,3 +114,16 @@ body {
   border-radius: 8px;
   display: block;
 }
+
+.cart {
+  width: 300px;
+  height: 250px;
+  background-color: hsl(20, 50%, 98%);
+  border-radius: 7px;
+}
+
+.cart > h3 {
+  color: hsl(14, 86%, 42%);
+  padding-top: 0.7em;
+  padding-left: 0.8em;
+}
