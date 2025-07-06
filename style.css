@@ -136,6 +136,7 @@ body {
 
 .qty-price {
   display: flex;
+  margin-top: 5px;
 }
 
 .remove {
@@ -145,6 +146,21 @@ body {
   border: 1px solid hsl(14, 25%, 72%);
   padding: 2px;
   border-radius: 50%;
+}
+
+.quantity {
+  color: hsl(14, 86%, 42%);
+}
+
+.fade-price {
+  color: hsl(14, 25%, 72%);
+  font-weight: 200;
+  margin-left: 15px;
+}
+.thick-price {
+  color: hsl(7, 20%, 60%);
+  font-weight: 600;
+  margin-left: 5px;
 }
 
 hr {
