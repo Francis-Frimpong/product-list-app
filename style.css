@@ -134,6 +134,11 @@ body {
   margin: 0.9em 0;
 }
 
+.item-category {
+  color: hsl(14, 65%, 9%);
+  font-weight: 600;
+}
+
 .qty-price {
   display: flex;
   margin-top: 5px;
