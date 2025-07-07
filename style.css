@@ -202,4 +202,22 @@ hr {
 }
 .order-total > .total-amt {
   font-size: 1.3rem;
+  color: hsl(14, 65%, 9%);
+}
+
+.carbon-neutral {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(13, 31%, 94%);
+  padding: 0.7em;
+  border-radius: 7px;
+  margin-top: 1em;
+  color: hsl(0, 0%, 41%);
+  font-weight: 100;
+}
+.carbon-neutral span {
+  color: hsl(14, 65%, 9%);
+}
+.carbon-neutral h5 {
+  margin-left: 0.3em;
 }
