@@ -221,3 +221,13 @@ hr {
 .carbon-neutral h5 {
   margin-left: 0.3em;
 }
+
+.confirm-btn {
+  margin: 1.3em auto;
+  width: 100%;
+  padding: 1em;
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  border: none;
+  border-radius: 30px;
+}
