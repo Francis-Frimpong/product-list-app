@@ -188,3 +188,18 @@ hr {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.order-total > .total-txt {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.order-total > .total-amt {
+  font-size: 1.3rem;
+}
