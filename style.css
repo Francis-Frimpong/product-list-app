@@ -117,7 +117,7 @@ body {
 
 .cart {
   width: 300px;
-  height: 250px;
+
   background-color: hsl(20, 50%, 98%);
   border-radius: 7px;
   padding: 0.8em;
@@ -171,4 +171,20 @@ body {
 hr {
   border: none;
   border-top: 2px solid hsl(13, 31%, 94%);
+}
+
+.item-container {
+  max-height: 300px; /* or any height you want */
+  overflow-y: auto;
+  padding-right: 8px; /* optional: gives space to scrollbar */
+}
+
+/* Optional: style scrollbar (WebKit browsers) */
+.item-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.item-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
