@@ -241,4 +241,14 @@ hr {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1000;
+  display: none;
+}
+
+.confirm-modal {
+  background-color: hsl(20, 50%, 98%);
+  width: 400px;
+  height: 400px;
+  margin-left: 2em;
+  border-radius: 7px;
+  padding: 2em;
 }
