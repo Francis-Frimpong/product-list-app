@@ -266,6 +266,13 @@ hr {
   margin-top: 1.3em;
 }
 
+/* scrollable container */
+.confirm-item-container {
+  max-height: 300px; /* Set a limit to show scroll */
+  overflow-y: auto; /* Enables vertical scroll */
+  box-sizing: border-box;
+}
+
 .confirmed-item {
   display: flex;
   justify-content: space-between;
