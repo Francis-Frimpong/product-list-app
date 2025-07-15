@@ -314,3 +314,9 @@ hr {
   margin-left: 1.3em;
   font-weight: 400;
 }
+
+.confirm-line {
+  border: none;
+  border-top: 2px solid hsl(0, 0%, 84%);
+  margin: 0 1em;
+}
