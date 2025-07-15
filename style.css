@@ -247,7 +247,7 @@ hr {
 .confirm-modal {
   background-color: hsl(20, 50%, 98%);
   width: 400px;
-  height: 600px;
+  height: 630px;
   margin-left: 2em;
   border-radius: 7px;
   padding: 2em;
@@ -319,4 +319,32 @@ hr {
   border: none;
   border-top: 2px solid hsl(0, 0%, 84%);
   margin: 0 1em;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 1.3em;
+}
+
+.confirm-total-text {
+  font-weight: 300;
+  color: hsl(0, 1%, 50%);
+  font-size: 0.9em;
+}
+
+.summed-price {
+  font-size: 1.3em;
+  color: hsl(14, 65%, 9%);
+}
+
+.new-order-btn {
+  margin: 1.7em auto;
+  width: 100%;
+  padding: 1em;
+  background-color: hsl(14, 86%, 42%);
+  color: hsl(20, 50%, 98%);
+  border: none;
+  border-radius: 30px;
 }
